@@ -1,0 +1,32 @@
+body{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.weather-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.location-zone, .temprature-selection{
+    display: flex;
+    align-items: center;
+}
+.location-zone{
+    width: 50%;
+    justify-content: space-evenly;
+}
+.degree-fc{
+    padding-left: .2em;
+    color: rgba(255,255,255,60%);
+    font-weight: 700;
+}
+.temprature-selection{
+    cursor: pointer;
+}
